@@ -2,3 +2,42 @@ footer {
     background: #f2f2f2;
     border: 1px solid #e4e4e4;
 }
+
+body {
+    color: #222;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    opacity: .75;
+}
+
+.fas {
+    padding: 5px;
+}
+
+.fa-user-circle {
+    font-size: 1.5rem;
+}
